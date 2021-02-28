@@ -8,7 +8,7 @@ class Hero{
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image = loadImage("images 2/Superhero-01.png");
+      this.image = loadImage("Superhero-01.png");
       World.add(world, this.body);
     }
     display(){
